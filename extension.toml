@@ -9,7 +9,7 @@ repository = "https://github.com/taimast/zed-ftl-extension"
 # Подключение вашего Tree-sitter парсера
 [grammars.ftl]
 repository = "https://github.com/taimast/tree-sitter-ftl"
-commit = "8bfce87830c1baabdb02bd1bd47f431271b73573"
+commit = "3ae42353dc609ae845805c92d44d820601bee55b"
 
 # Подключение вашего языкового сервера (если есть)
 #[language_servers.ftl]
