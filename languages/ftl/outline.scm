@@ -1,2 +1,3 @@
 (message
-  (identifier) @name) @item
+  id: (identifier) @name
+  value: (message_value) @item)
