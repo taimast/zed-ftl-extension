@@ -1,3 +1,1 @@
-("{" @open "}" @close)
-("[" @open "]" @close)
-("(" @open ")" @close)
+(variable "{" @open "}" @close) ; Для переменных вида {$variable}
