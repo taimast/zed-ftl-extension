@@ -1,5 +1,11 @@
+(message_identifier) @identifier
+(value) @value
+(variant) @variant
+(placeable) @placeable
+(attribute) @attribute
+(variable_expression) @variable
+(call_expression) @call
+(selector) @selector
+(default_selector) @default
+(number) @number
 (comment) @comment
-(identifier) @property
-(variable_reference) @variable
-(text) @string
-"=" @operator

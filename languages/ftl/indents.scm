@@ -1,3 +1,2 @@
-(placeable) @indent
-
-(message_value) @indent
+(message "=" @end) @indent
+(term "=" @end) @indent
