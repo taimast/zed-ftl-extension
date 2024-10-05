@@ -1,11 +1,15 @@
-(message_identifier) @identifier
-(value) @value
-(variant) @variant
-(placeable) @placeable
-(attribute) @attribute
-(variable_expression) @variable
-(call_expression) @call
-(selector) @selector
-(default_selector) @default
-(number) @number
+# Подсвечиваем комментарии
 (comment) @comment
+
+# Подсвечиваем идентификаторы сообщений
+(message_identifier) @function
+
+# Подсвечиваем текст
+(text) @string
+
+# Подсвечиваем вставки
+(placeable) @variable
+
+# Подсвечиваем ключи и значения в фукнциях
+(placeable_function) @function
+(placeable_reference_or_number) @number

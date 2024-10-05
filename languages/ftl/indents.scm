@@ -1,2 +1,2 @@
-(message "=" @end) @indent
-(term "=" @end) @indent
+# Определяем отступы для содержания сообщения
+(message_content) @indent

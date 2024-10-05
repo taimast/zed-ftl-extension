@@ -1,5 +1,5 @@
 name = "Fluent"
-grammar = "ftl"
+grammar = "fluent"
 path_suffixes = ["ftl"]
 line_comments = ["# "]
 tab_size = 2
