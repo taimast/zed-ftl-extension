@@ -1,4 +1,7 @@
-# Захватываем идентификаторы и значения ключей
 (message
   (message_identifier) @name
-  (message_content) @item)
+  (_text) @item)
+
+(term
+  (term_identifier) @name
+  (_text) @item)

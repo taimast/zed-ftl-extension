@@ -1,15 +1,27 @@
-# Подсвечиваем комментарии
 (comment) @comment
 
-# Подсвечиваем идентификаторы сообщений
+; Подсветка идентификаторов сообщений и терминов
 (message_identifier) @function
+(term_identifier) @constant
 
-# Подсвечиваем текст
-(text) @string
+; Подсветка текста
+(_text) @string
 
-# Подсвечиваем вставки
-(placeable) @variable
+; Подсветка переменных
+(variable_expression) @variable
 
-# Подсвечиваем ключи и значения в фукнциях
-(placeable_function) @function
-(placeable_reference_or_number) @number
+; Подсветка вызовов функций
+(call_expression) @function
+
+; Подсветка чисел
+(number) @number
+
+; Подсветка атрибутов
+(attribute) @property
+
+; Подсветка вставок
+(placeable) @punctuation.special
+
+; Подсветка селекторов и значений
+(selector) @label
+(default_selector) @label

@@ -1,2 +1,3 @@
-# Определяем отступы для содержания сообщения
-(message_content) @indent
+(value) @indent
+
+(attribute) @indent
